@@ -1,0 +1,441 @@
+@font-face {
+    font-family:"Airbnb cereal app";
+    src: url(font/font/airbnb-cereal-font/AirbnbCereal_W_Bd.otf);
+}
+
+body {
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+    color: #828297;
+    font-family:"Airbnb cereal app" ;
+}
+
+/* ---------------------------General css------------------ */
+header, .services, .newsletter .container {
+    background-image: url(images/Header.jpg);
+}
+
+header {
+    padding-top: 40px;
+}
+.banner, .work, .about-us, .Global-promotion, footer{
+    padding-top: 60px;
+}
+.banner, .Global-promotion{
+    padding-bottom: 40px;
+}
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h5, h4, .sign {
+    color: black;
+}
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+h1 {
+    font-size: 48px;
+    line-height: 55px;
+}
+h2 {
+    font-size: 38px;
+    line-height: 45px;
+}
+h3{
+    font-size: 25px;
+    line-height: 35px;
+}
+h4{
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 25px;
+}
+h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+p{
+    color:#828297;
+}
+.bttn {
+    font-size: 15px;
+    padding: 14px 40px;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    background: var(--Primary, #060640);
+    color: white;
+}
+.fa-bars, .navbar .nav-item .nav-link:hover, .fa-play, .services h6 {
+    color: #00E5CC;
+}
+.modal-body{
+    padding: 0;
+}
+span {
+    position: relative;
+}
+.image {
+    position: absolute;
+    left: 3px;
+    right: 0;
+    bottom: 0;
+    top: -6px;
+}
+.cards img{
+    height: 50px;
+    width: 50px;
+}
+.work-img{
+    background-color:#ECF9FFCC;
+    border-radius: 4px;
+    padding: 4px 8px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #06064000, #060640;
+}
+.navbar-nav .nav-link.active, footer .fa-brands{
+    color: #828297;
+}
+button:hover {
+    background-color: #6985b5;
+  }
+
+/* ----------------------Start Navbar-------------------------- */
+
+header .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px 0;
+    margin: 0 24px;
+}
+.navbar-toggler {
+    border: 0;
+    border-radius: 0;
+}
+.sign {
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    align-items: center;
+}
+/* ---------------------------------Modal------------------------------------ */
+.contact-us{
+    text-align: center;
+    color: #60697b;
+}
+.contact-us h1{
+    font-size: 40px;
+}
+.form{
+    margin: 3%;
+    text-align: center;
+      color: #60697b;
+}
+.padding{
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 1rem rgba(0,0,0,.2);
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+    border-top: none;
+}
+.form h1{
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.space {
+    margin-top: 20px;
+    display: block;   
+}
+ .space input{
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 1.25rem rgba(30,34,40,.04);
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #60697b;
+}
+.option{
+    margin-top: 20px;
+   
+}
+ select{
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 1.25rem rgba(30,34,40,.04);
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #60697b;
+    display: block;
+}
+.option select option{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #60697b;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 0 0 1.25rem rgba(30,34,40,.04);
+    line-height: 27px;
+    color: #60697b;
+    margin-bottom: 40px;
+    display: block;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    padding: 12px 48px;
+    color: #ffffff;
+    background-color: #123364;
+    margin: 20px 0px 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* -----------------------------End Navbar--------------------------------- */
+/* -----------------------Start Banner---------------------------- */
+.banner p {
+    padding-top: 15px;
+}
+.banner .button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-close{
+    padding: 14px;
+    color: red;
+    background-color: #00E5CC;
+    z-index: 129;
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    bottom: 0;
+}
+iframe{
+    position: relative;
+}
+.box {
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.70);
+    padding: 30px;
+    margin-top: 30px;
+}
+.box .img-size {
+    width: 6%;
+}
+
+.box p {
+    margin-bottom: 0;
+}
+
+.box p span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-play {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 16px;
+}
+
+/* -----------------------End ----------------- */
+/* -------------------How it works------------------*/
+
+.work .cards {
+    border-radius: 20px;
+    border: 2px solid rgba(6, 6, 64, 0.00);
+    background: #FFF;
+    box-shadow: 1px 0 13px rgba(0, 0, 0, .3);
+    padding: 30px;
+    height: 100%;
+}
+    /* --------------------------------End -------------------------------  */
+    /* <!-- ----------------------- About Us-------------------------------- */
+.about-us .abc p{
+    margin-bottom: 0;
+}
+.about-us .work-img{
+    margin-bottom: 0;
+}
+    /* <!-- ---------------------------End---------------------------- */
+    /* <!-- ----------------------------- Services--------------------------------- */
+    .services{
+        padding: 50px 0;
+        margin-top: 60px;
+    }
+    .Popular-package-position{
+        position: absolute;
+        top: -3px;
+        left: 5px;
+        right: 0;
+        margin: 0 auto;
+    }
+    .services h6, .services p{
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+    .services h6{
+        padding-left: 74px;
+    }
+    .services h2{
+        margin-bottom: 20px;
+    }
+    .card{
+        padding: 20px 30px;
+        border: none;
+        border-radius: 10px;
+        height: 100%;
+    }
+    .card-color{
+        background: rgba(255, 255, 255), 0.2;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 40px;
+        width: 40px;
+        background-color: #00E5CC;
+        border-radius: 6px;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -11px;
+        bottom: auto;
+        opacity: 0.9;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 6px;
+    }
+    .carousel-control-prev {
+        left: auto;
+        right: 63px;
+    }
+    .carousel-control-next {
+        right: 18px;
+    }
+    /* <!-- -------------------End Services--------------------------------------------- */
+    /* <!-- ----------------------- Global Promotion-------------------------------- */
+    .Global-promotion{
+        padding-bottom: 70px;
+    }
+    /* <!-- -------------------------End-------------------------------------- */
+    /* <!-- ------------------------ News Letter------------------------------- */
+    .newsletter{
+        margin: 50px 0;
+        position: relative;
+    }
+    .newsletter .container{
+        padding: 40px;
+        border-radius: 16px;
+    }
+    .newsletter .container .new-img{
+        position: absolute;
+        right: -389px;
+        top: -309px ;
+        bottom: 0;
+    }
+    input{
+        border: none;
+       color :#D9DBE1;
+        border-radius: 8px;
+        padding: 15px 12px ;
+        width: 100%;
+    }
+    .email  {
+        position: relative;
+        margin-top: 30px;
+    }
+    .form-button{
+        position: absolute;
+        right: 7px;
+        top: 15px; 
+    }
+    /* <!-- ---------------------------End-------------------------------- */
+    /* <!-- ----------------- Footer-------------------------- */
+footer{
+    background-color: #060640;
+}
+footer p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+footer ul{
+    padding-top: 30px;
+    gap: 22px;
+}
+a{
+    color: #828297;
+}
+footer .fa-brands{
+    border: 2px solid  #828297;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+   padding-top: 10px;
+}
+footer h5{
+    color: white;
+}
+.bottom-footer{
+    background-color: #000020;
+    padding: 30px 0;
+}
+    /* <!-- -----------------------End Footer---------------------------- */
+    /* -------------------------Media Query---------------------------------- */
+    @media (max-width:992px) {
+    header .navbar-nav .nav-item .nav-link {
+        padding: 0;
+    }
+    .button {
+        margin-bottom: 40px;
+    }
+    .butn {
+        margin-top: 6px;
+        margin-bottom: 20px;
+    }
+    .newsletter{
+        position: relative;
+    }
+    .newsletter .container .new-img{
+        position: inherit;
+    }
+}
+@media(max-width:765px){
+    .newsletter{
+        position: relative;
+    }
+    .newsletter .container img .new-img{
+        position: inherit;
+    }
+    
+}
